@@ -1,0 +1,30 @@
+footer {
+  position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    width: 100%;
+    background-color: #941942;
+    color: white;
+    padding: 15px;
+  }
+  #help{
+    font-size: 13pt;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #941942;
+    border-radius: 10px;
+  }
+  .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #941942;
+  }
